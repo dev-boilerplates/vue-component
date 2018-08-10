@@ -10,7 +10,7 @@ _usage_
 
 _outputs_
 
-* `js/components/my-component/my-component.js`
+* `js/components/my-component/script.js`
 * `js/components/my-component/computed-styles.js`
 * `stylus/components/my-component.styl`
 * `jade/components/my-component.jade`
