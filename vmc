@@ -4,11 +4,14 @@
 sed "s/%s/$1/g" ~/.bin/vue-component/script.js > script
 sed "s/%s/$1/g" ~/.bin/vue-component/template.jade > template
 sed "s/%s/$1/g" ~/.bin/vue-component/stylesheet.styl > stylesheet
+sed "s/%s/$1/g" ~/.bin/vue-component/computed-styles.js > styles
 
+# ensure valid directory structure exists
 mkdir -p js/components/$1
+mkdir -p jade/components
+mkdir -p stylus/components
 
 mv script js/components/$1/$1.js
 mv template jade/components/$1.jade
 mv stylesheet stylus/components/$1.styl
-
-cp computed-styles.js js/components/$1/computed-styles.js
+mv styles js/components/$1/computed-styles.js

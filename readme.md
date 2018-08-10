@@ -10,16 +10,16 @@ _usage_
 
 _outputs_
 
-* `js/components/my-component.js`
+* `js/components/my-component/my-component.js`
+* `js/components/my-component/computed-styles.js`
 * `stylus/components/my-component.styl`
 * `jade/components/my-component.jade`
 
-**todo?**
+---
 
-Create a directory for component script, to include `vuex` like mappings.
+_computed-styles_
 
-* `js/components/my-component/component.js`
-* `js/components/my-component/styles.js`
+Creates a directory for component script, to include `vuex` _like_ mappings.
 
 That way it breaks out having x5 style computed properties in the core component file.
 
