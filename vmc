@@ -15,3 +15,5 @@ mv script js/components/$1/$1.js
 mv template jade/components/$1.jade
 mv stylesheet stylus/components/$1.styl
 mv styles js/components/$1/computed-styles.js
+
+echo "@import 'components/$1'" >> stylus/style.styl
