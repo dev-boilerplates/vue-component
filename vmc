@@ -11,7 +11,7 @@ mkdir -p js/components/$1
 mkdir -p jade/components
 mkdir -p stylus/components
 
-mv script js/components/$1/component.js
+mv script js/components/$1/vm.js
 mv template jade/components/$1.jade
 mv stylesheet stylus/components/$1.styl
 mv styles js/components/$1/computed-styles.js
