@@ -11,7 +11,7 @@ _usage_
 _outputs_
 
 * `js/components/my-component/vm.js`
-* `js/components/my-component/computed-styles.js`
+* `js/components/my-component/computed-classes.js`
 * `stylus/components/my-component.styl`
 * `jade/components/my-component.jade`
 
@@ -28,7 +28,7 @@ That way it breaks out having x5 style computed properties in the core component
     name: "my-component",
     template,
     computed: {
-        ...styles
+        ...classes
     }
 }
 ```

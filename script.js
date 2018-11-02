@@ -1,5 +1,5 @@
 import template from '../../templates/%s.html'
-import styles from './computed-styles'
+import classes from './computed-classes'
 export default {
     name: "%s",
     template,
@@ -8,6 +8,6 @@ export default {
         return {}
     },
     computed: {
-        ...styles
+        ...classes
     }
 }
