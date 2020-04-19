@@ -4,10 +4,9 @@ export default {
     name: "%s",
     template,
     props: [],
-    data() {
-        return {}
-    },
+    data() {},
     computed: {
-        ...classes
-    }
+        ...classes,
+    },
+    methods: {},
 }
